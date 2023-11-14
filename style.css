@@ -1,0 +1,22 @@
+body{
+    background-color: #004c66;
+}
+.cen{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%,-50%);  
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    border: 20px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    border-top-color:#fff ;
+    animation: spine 3s infinite;
+}
+@keyframes spine{
+    100%{
+        transform: rotate(360deg);
+    }
+}
